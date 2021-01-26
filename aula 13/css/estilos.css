@@ -1,0 +1,78 @@
+.tabela-simples{
+    border: 1px solid black;
+    background: #fcdede;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tabela-simples td{
+    border: 1px solid black;
+}
+
+.tabela-contas{
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.tabela-contas caption{
+    border: 2px solid black;
+    font-weight: bold;
+    background: #8be4f4;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.tabela-contas th,
+.tabela-contas tfoot{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabela-contas td{
+    border: 1px solid black;
+}
+
+.positivo{
+    color: blue;
+}
+
+.positivo::before{
+    content: "+ ";
+}
+
+.negativo{
+    color: red;
+}
+
+.negativo::before{
+    content: "- ";
+}
+
+.bloco{
+    border: 1px solid red;
+    display: block;
+}
+
+.linha{
+    border: 1px dotted blue;
+    display: inline;
+}
+
+.lista-imagens{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*.lista-imagens li{
+    display: inline-block;
+}*/
